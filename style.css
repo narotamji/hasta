@@ -1,0 +1,406 @@
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+.love-ya-like-a-sister {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.Gloria {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+main {
+	margin-top: -5rem;
+}
+
+
+body header {
+	position: sticky;
+	top: 5px;
+	z-index: 20;
+}
+
+.navbar {
+	position: relative;
+	top: -2.5rem;
+}
+
+.nav-item {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.nav-item:active {
+	color: black;
+}
+
+/* slider  */
+
+@keyframes fade {
+	0% {opacity: 0;
+		left: 10%;
+	}
+	20% {opacity: 1;
+		left: 15%;
+	}
+	100% {opacity: 1;
+		left: 15%;
+	}
+}
+
+.carousel-caption {
+	background: url(images/slider/shape-1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0;
+	position: absolute;
+	left: 15%;
+	top: 15%;
+	animation: fade 5s;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	animation-timing-function: ease;
+	width: 35%;
+}
+
+
+.cloud__separator {
+	position: relative;
+    width: 100%;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+    top: -15px;
+    left: 0px;
+    z-index: 2;
+    background: url(images/469.png) center top no-repeat;
+}
+
+
+.parallax-section01 {
+	background: url(images/468.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-origin: initial;
+    background-clip: initial;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+
+.parallax-section02 {
+	background: url(images/468.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-origin: initial;
+    background-clip: initial;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+	z-index: 1;
+	width: 100%;
+}
+
+
+.pink_bg {
+	background-color: #ffa9ca99;
+}
+
+.yellow_bg {
+	background-color: #f6ca0099;
+}
+
+.violet_bg {
+	background-color: #b766dd99;
+}
+.icon__border {
+	padding: 0;
+	border-radius: 50%;
+	line-height: 110px;
+}
+
+
+
+
+.activities__icon {
+	width: 7rem !important;
+	height: 7rem !important;
+	font-size: 2.5rem;
+}
+
+
+
+
+/* kids galler */
+.kids__activies--01 {
+	position: relative;
+}
+.kids__activies--01::before {
+	content: "Suspendisse Imperdiet";
+	background-color: #000000cc;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	font-size: 1rem;
+	z-index: 5;
+	transition: all ease-in-out 500ms;
+	opacity: 0;
+}
+.kids__activies--01:hover::before {
+	opacity: 1;
+}
+.kids__activies--01 img {
+	transition: all ease-in-out 300ms;
+}
+.kids__activies--01:hover img {
+	transform: scale(1.25);
+}
+
+
+.kids__activies--02 {
+	position: relative;
+}
+.kids__activies--02::before {
+	content: "Magna Tempus Urna";
+	background-color: #000000cc;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	font-size: 1rem;
+	z-index: 5;
+	transition: all ease-in-out 500ms;
+	opacity: 0;
+}
+.kids__activies--02:hover::before {
+	opacity: 1;
+}
+.kids__activies--02 img {
+	transition: all ease-in-out 300ms;
+}
+.kids__activies--02:hover img {
+	transform: scale(1.25);
+}
+
+
+.kids__activies--03 {
+	position: relative;
+}
+.kids__activies--03::before {
+	content: "World Clock Widget";
+	background-color: #000000cc;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	font-size: 1rem;
+	z-index: 5;
+	transition: all ease-in-out 500ms;
+	opacity: 0;
+}
+.kids__activies--03:hover::before {
+	opacity: 1;
+}
+.kids__activies--03 img {
+	transition: all ease-in-out 300ms;
+}
+.kids__activies--03:hover img {
+	transform: scale(1.25);
+}
+
+
+.kids__activies--04 {
+	position: relative;
+}
+.kids__activies--04::before {
+	content: "Quisque Ornare";
+	background-color: #000000cc;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	font-size: 1rem;
+	z-index: 5;
+	transition: all ease-in-out 500ms;
+	opacity: 0;
+}
+.kids__activies--04:hover::before {
+	opacity: 1;
+}
+.kids__activies--04 img {
+	transition: all ease-in-out 300ms;
+}
+.kids__activies--04:hover img {
+	transform: scale(1.25);
+}
+
+
+.kids__activies--05 {
+	position: relative;
+}
+.kids__activies--05::before {
+	content: "Hendrerit Condimentum";
+	background-color: #000000cc;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	font-size: 1rem;
+	z-index: 5;
+	transition: all ease-in-out 500ms;
+	opacity: 0;
+}
+.kids__activies--05:hover::before {
+	opacity: 1;
+}
+.kids__activies--05 img {
+	transition: all ease-in-out 300ms;
+}
+.kids__activies--05:hover img {
+	transform: scale(1.25);
+}
+
+
+.kids__activies--06 {
+	position: relative;
+}
+.kids__activies--06::before {
+	content: "Donec Dapibus Placerat";
+	background-color: #000000cc;
+	position: absolute;
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	font-size: 1rem;
+	z-index: 5;
+	transition: all ease-in-out 500ms;
+	opacity: 0;
+}
+.kids__activies--06:hover::before {
+	opacity: 1;
+}
+.kids__activies--06 img {
+	transition: all ease-in-out 300ms;
+}
+.kids__activies--06:hover img {
+	transform: scale(1.25);
+}
+
+
+
+
+
+/* teachers */
+
+.teacher {
+	max-height: 31.5rem;
+	transition: all ease-in-out 300ms;
+}
+
+.teacher img{
+	transition: all ease-in-out 300ms;
+}
+
+.teacher:hover img{
+	transform: scale(1.1);
+}
+
+.info__box {
+	position: relative;
+	bottom: 0;
+	transition: all ease-in-out 300ms;
+	border: 0;
+	border-top: 01px solid #b9b9b9;
+	border-radius: 0;
+}
+
+.teacher:hover .info__box{
+	bottom: 10rem;
+}
+
+
+
+
+/* registration */
+
+.register__online {
+	background-color: #ffd202;
+	/* min-width: 20rem; */
+	/* max-width: 20rem; */
+	padding: 0.75rem 0;
+}
+
+.register__online:hover {
+	background-color: #ffc402;
+}
+
+.register__online a {
+	text-decoration: none;
+}
+
+.registration__form {
+	background-color: #ff6fba;
+	/* min-width: 20rem; */
+	/* max-width: 20rem; */
+	padding: 0.75rem 0;
+	margin: 1rem 0;
+}
+
+.registration__form:hover {
+	background-color: #f14fa3;
+}
+
+.registration__form a {
+	text-decoration: none;
+}
+
+.parent__login {
+	background-color: #45daff;
+	/* min-width: 20rem; */
+	/* max-width: 20rem; */
+	padding: 0.75rem 0;
+}
+
+.parent__login:hover {
+	background-color: #33cef5;
+}
+
+.parent__login a {
+	text-decoration: none;
+}
+
+
+/* footer */
+
+.footer__cloud {
+	background: url(images/478.png) center top no-repeat;
+	position: relative;
+	width: 100%;
+	height: 125px;
+    padding: 0px;
+    margin: 0px;
+    top: -15px;
+    left: 0px;
+    z-index: 2;
+}
+
+.border__white {
+	border-bottom: 1px solid white;
+	padding-bottom: 12px;
+}
+
+.quick-links {
+	list-style: none;
+}
