@@ -46,13 +46,13 @@ body header {
 
 @keyframes fade {
 	0% {opacity: 0;
-		left: 10%;
+		left: 0%;
 	}
 	20% {opacity: 1;
-		left: 15%;
+		left: 4%;
 	}
 	100% {opacity: 1;
-		left: 15%;
+		left: 4%;
 	}
 }
 
@@ -62,7 +62,7 @@ body header {
 	background-size: contain;
 	opacity: 0;
 	position: absolute;
-	left: 15%;
+	left: 4%;
 	top: 15%;
 	animation: fade 5s;
 	animation-delay: 1s;
