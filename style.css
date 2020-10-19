@@ -16,6 +16,12 @@ main {
 	margin-top: -5rem;
 }
 
+@media only screen and (max-width: 575px) {
+	main {
+	margin-top: -2.6rem;
+	}
+}
+
 
 body header {
 	position: sticky;
