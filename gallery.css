@@ -1,0 +1,12 @@
+.header-section {
+	background-image: url(images/header-img.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header-body {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.473);
+}

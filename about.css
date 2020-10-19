@@ -1,0 +1,25 @@
+.header-section {
+	background-image: url(images/header-img.jpg);
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header-body {
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+.testimonial-bg-img {
+    background-image: url(images/482.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-position: center;
+    background-size: cover;
+}
+
+.testimonial-body {
+    background-color: rgba(0, 0, 0, 0.726);
+}
